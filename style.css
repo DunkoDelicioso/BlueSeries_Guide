@@ -1,0 +1,125 @@
+html{
+zoom:51%;
+background-color: rgb(255, 255, 255);
+position: relative;
+overflow: hidden;
+
+}
+
+
+
+#total:fullscreen {
+    background-color: rgb(255, 255, 255);
+}
+
+#cont{
+    position: fixed;
+    margin-left: 1175px;
+    z-index: -1;
+    width: 33%;
+    height: 90%;
+    overflow-y: scroll;
+    }
+
+#behinder{
+    overflow-y: auto;
+    margin-top: 100px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    line-height: 36px;
+    }
+
+#canvas{
+    position: absolute;
+    z-index: 500;
+}
+
+#scroller{
+width: 300px;
+height: 950px;
+margin-top: 250px;
+margin-left: 20px;
+position: absolute;
+overflow: scroll;
+font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.box{
+    font-family: 'raleway';
+    opacity: 70%;
+    position: absolute;
+    width: 26%;
+    height: 150px;
+    margin-top: 200px;
+    margin-left: 64%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.button{
+
+    font-family: 'raleway';
+    opacity: 70%;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 10%;
+    width: 50%;
+    height: 150px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+#button1{
+    font-family: 'raleway';
+    opacity: 70%;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10%;
+    width: 80%;
+    height: 150px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#controls{
+    margin-top: 100px;
+}
+
+#leftDiv{
+    background-color:  rgb(0, 119, 255);
+    margin-left: 80%;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+#slidecontainer{
+    position: relative;
+    margin-top: 340px;
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 70%;
+    height: 10px;
+    margin-top: 10%;
+    margin-left: 15%;
+    background: rgb(255, 255, 255);
+    outline: none;
+    cursor: ew-resize;
+}
+
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 10px;
+    height: 50px;
+    background: rgb(255, 255, 255);;
+}
+
+#model{
+    margin-top: 620px;
+    width: 80%;
+}
+
+
